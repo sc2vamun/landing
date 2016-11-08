@@ -1,0 +1,93 @@
+1478616611a:1:{s:12:"product1.htm";a:10:{s:8:"fileName";s:12:"product1.htm";s:7:"content";s:875:"title = "Product"
+url = "/product/:slug"
+layout = "default"
+is_hidden = 0
+
+[builderDetails]
+modelClass = "Vadim\Products\Models\Prod"
+identifierValue = "{{ :slug }}"
+modelKeyColumn = "slug"
+displayColumn = "pname"
+notFoundMessage = "Record not found"
+==
+<?php
+use vadim\products\models\Prod;
+use vadim\products\models\Sales;
+
+
+function onClick() {
+    
+    }
+?>
+==
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+
+
+<form action="onClick">
+<input type="button" value='Приобрести'>
+
+</form>
+
+{% set record = builderDetails.record %}
+{% set displayColumn = builderDetails.displayColumn %}
+{% set notFoundMessage = builderDetails.notFoundMessage %}
+
+{% if record %}
+   <h3>{{record.pname}}</h3>
+   <p>{{record.pdescription}} </p>
+{% else %}
+    {{ notFoundMessage }}
+{% endif %}
+</div>";s:5:"mtime";i:1478616008;s:6:"markup";s:504:"<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+
+
+<form action="onClick">
+<input type="button" value='Приобрести'>
+
+</form>
+
+{% set record = builderDetails.record %}
+{% set displayColumn = builderDetails.displayColumn %}
+{% set notFoundMessage = builderDetails.notFoundMessage %}
+
+{% if record %}
+   <h3>{{record.pname}}</h3>
+   <p>{{record.pdescription}} </p>
+{% else %}
+    {{ notFoundMessage }}
+{% endif %}
+</div>";s:4:"code";s:104:"use vadim\products\models\Prod;
+use vadim\products\models\Sales;
+
+
+function onClick() {
+    
+    }";s:5:"title";s:7:"Product";s:3:"url";s:14:"/product/:slug";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:14:"builderDetails";a:5:{s:10:"modelClass";s:26:"Vadim\Products\Models\Prod";s:15:"identifierValue";s:11:"{{ :slug }}";s:14:"modelKeyColumn";s:4:"slug";s:13:"displayColumn";s:5:"pname";s:15:"notFoundMessage";s:16:"Record not found";}}}

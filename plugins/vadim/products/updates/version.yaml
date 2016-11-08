@@ -1,0 +1,29 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table vadim_products_'
+    - builder_table_create_vadim_products_.php
+1.0.3:
+    - 'Created table vadim_products_sales'
+    - builder_table_create_vadim_products_sales.php
+1.0.4:
+    - 'Updated table vadim_products_sales'
+    - builder_table_update_vadim_products_sales.php
+1.0.5:
+    - 'Updated table vadim_products_'
+    - builder_table_update_vadim_products_.php
+1.0.6:
+    - 'Updated table vadim_products_'
+    - builder_table_update_vadim_products__2.php
+1.0.7:
+    - 'Updated table vadim_products_'
+    - builder_table_update_vadim_products__3.php
+1.0.8:
+    - 'Updated table vadim_products_'
+    - builder_table_update_vadim_products__4.php
+1.0.9:
+    - 'Updated table vadim_products_'
+    - builder_table_update_vadim_products__5.php
+1.0.10:
+    - 'Updated table vadim_products_'
+    - builder_table_update_vadim_products__6.php

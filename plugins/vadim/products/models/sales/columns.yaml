@@ -1,0 +1,13 @@
+columns:
+    id:
+        label: ID
+        type: number
+    product:
+        label: Продукт
+        type: text
+    client:
+        label: Клиент
+        type: text
+    datetime:
+        label: 'Дата покупки'
+        type: datetime

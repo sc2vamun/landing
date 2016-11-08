@@ -1,0 +1,4 @@
+title: Prod
+modelClass: Vadim\Products\Models\Prod
+toolbar:
+    buttons: reorder_toolbar

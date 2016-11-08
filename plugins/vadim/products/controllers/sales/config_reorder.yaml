@@ -1,0 +1,4 @@
+title: Sales
+modelClass: Vadim\Products\Models\Sales
+toolbar:
+    buttons: reorder_toolbar

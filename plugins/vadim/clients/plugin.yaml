@@ -1,0 +1,6 @@
+plugin:
+    name: 'vadim.clients::lang.plugin.name'
+    description: 'vadim.clients::lang.plugin.description'
+    author: Vadim
+    icon: oc-icon-database
+    homepage: ''

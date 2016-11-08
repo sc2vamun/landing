@@ -1,0 +1,44 @@
+fields:
+    id:
+        label: 'PROD ID'
+        oc.commentPosition: ''
+        span: auto
+        type: number
+    pname:
+        label: 'Наименование продукта'
+        oc.commentPosition: ''
+        span: auto
+        placeholder: наименование
+        type: text
+    pprice:
+        label: 'Цена продукта'
+        oc.commentPosition: ''
+        span: auto
+        type: number
+    pdescription:
+        label: Описание
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    pcat:
+        label: Категория
+        oc.commentPosition: ''
+        options:
+            - 'Консультации и практики'
+            - 'Программы и курсы'
+        span: auto
+        default: '1'
+        type: dropdown
+    pcolor:
+        label: 'Цвет картинки'
+        oc.commentPosition: ''
+        span: auto
+        type: number
+    slug:
+        label: Link
+        oc.commentPosition: ''
+        span: auto
+        preset:
+            field: pname
+            type: slug
+        type: text

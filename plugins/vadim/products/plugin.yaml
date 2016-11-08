@@ -1,0 +1,15 @@
+plugin:
+    name: 'vadim.products::lang.plugin.name'
+    description: 'vadim.products::lang.plugin.description'
+    author: Vadim
+    icon: oc-icon-align-justify
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Продукты
+        url: vadim/products/Prod
+        icon: icon-life-ring
+    main-menu-item2:
+        label: Продажи
+        url: vadim/products/sales
+        icon: icon-life-ring

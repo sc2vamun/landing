@@ -1,0 +1,10 @@
+name: Sales
+form: $/vadim/products/models/sales/fields.yaml
+modelClass: Vadim\Products\Models\Sales
+defaultRedirect: vadim/products/sales
+create:
+    redirect: 'vadim/products/sales/update/:id'
+    redirectClose: vadim/products/sales
+update:
+    redirect: vadim/products/sales
+    redirectClose: vadim/products/sales

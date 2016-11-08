@@ -1,0 +1,21 @@
+columns:
+    id:
+        label: Номер
+        type: number
+        searchable: true
+        sortable: true
+    pname:
+        label: Наименование
+        type: text
+    pprice:
+        label: Цена
+        type: number
+    pdescription:
+        label: Описание
+        type: text
+    pcat:
+        label: Категория
+        type: text
+    pcolor:
+        label: Цвет
+        type: number

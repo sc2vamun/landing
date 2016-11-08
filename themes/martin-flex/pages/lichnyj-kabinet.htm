@@ -1,0 +1,31 @@
+title = "Личный кабинет"
+url = "/cabinet"
+layout = "default"
+is_hidden = 0
+
+[session]
+security = "user"
+redirect = "home"
+==
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+{%if user%}
+<div class="container heading-section col-md-12 text-center">
+<h2>{{user.name}}, Добро пожаловать в Ваш Личный кабинет </h2>
+<br>
+<br>
+<br>
+<button data-request="onLogout" >Выйти</button>
+</div>
+
+{%else%}
+
+
+{%endif%}

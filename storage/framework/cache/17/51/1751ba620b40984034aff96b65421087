@@ -1,0 +1,52 @@
+1478616372a:1:{s:19:"lichnyj-kabinet.htm";a:10:{s:8:"fileName";s:19:"lichnyj-kabinet.htm";s:7:"content";s:465:"title = "Личный кабинет"
+url = "/cabinet"
+layout = "default"
+is_hidden = 0
+
+[session]
+security = "user"
+redirect = "home"
+==
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+{%if user%}
+<div class="container heading-section col-md-12 text-center">
+<h2>{{user.name}}, Добро пожаловать в Ваш Личный кабинет </h2>
+<br>
+<br>
+<br>
+<button data-request="onLogout" >Выйти</button>
+</div>
+
+{%else%}
+
+
+{%endif%}";s:5:"mtime";i:1478614090;s:6:"markup";s:327:"<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+{%if user%}
+<div class="container heading-section col-md-12 text-center">
+<h2>{{user.name}}, Добро пожаловать в Ваш Личный кабинет </h2>
+<br>
+<br>
+<br>
+<button data-request="onLogout" >Выйти</button>
+</div>
+
+{%else%}
+
+
+{%endif%}";s:4:"code";N;s:5:"title";s:27:"Личный кабинет";s:3:"url";s:8:"/cabinet";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:7:"session";a:2:{s:8:"security";s:4:"user";s:8:"redirect";s:4:"home";}}}

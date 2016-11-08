@@ -1,0 +1,11 @@
+list: $/vadim/products/models/sales/columns.yaml
+modelClass: Vadim\Products\Models\Sales
+title: Sales
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'vadim/products/sales/update/:id'

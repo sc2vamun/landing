@@ -1,0 +1,114 @@
+1478616378a:1:{s:15:"site-header.htm";a:6:{s:8:"fileName";s:15:"site-header.htm";s:7:"content";s:2498:"==
+<div class="site-header">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/darlingalmaty/" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-dribbble"></a></li>
+                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-header">
+        <div class="container">
+            <div id="menu-wrapper">
+                <div class="row">
+                    <div class="logo-wrapper col-md-4 col-sm-2 col-xs-8">
+                        
+                        <h1>
+                            <a class="font" href="#">Darling</a>
+                        </h1>
+                    </div>
+                    <div class="col-md-8 col-sm-10 col-xs-4 main-menu text-right">
+                        <ul class="menu-first hidden-sm hidden-xs">
+                            <li id="DARLING"><a href="/">Главная</a></li>
+                            <li id="БЛОГ"><a href="/blog">БЛОГ</a></li>
+                        {%if user%}
+                            <li id="Личный"><a  href="/cabinet">ПРИВЕТ, {{user.name}}</a></li>
+                        {%else%}
+                            <li id="Войти"><a href="/login">Войти</a></li>
+                        {%endif%}
+                            <li><a href="/#contact">КОНТАКТЫ</a></li>
+                        </ul>
+                        <a href="#" class="toggle-menu visible-sm visible-xs"><i class="fa fa-bars"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-responsive hidden-md hidden-lg">
+                <ul>
+                    <li class="active"><a href="#">Главная</a></li>
+                    <li><a href="/blog">БЛОГ</a></li>
+                    
+                    {%if user%}
+                    <li><a href="#portfolio">ПРИВЕТ, {{user.name}}</a></li>
+                    {%else%}
+                    <li><a href="/login">ВХОД</a></li>
+                    {%endif%}
+                    <li><a href="#contact">КОНТАКТЫ</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>";s:5:"mtime";i:1478272328;s:6:"markup";s:2495:"<div class="site-header">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/darlingalmaty/" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-dribbble"></a></li>
+                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-header">
+        <div class="container">
+            <div id="menu-wrapper">
+                <div class="row">
+                    <div class="logo-wrapper col-md-4 col-sm-2 col-xs-8">
+                        
+                        <h1>
+                            <a class="font" href="#">Darling</a>
+                        </h1>
+                    </div>
+                    <div class="col-md-8 col-sm-10 col-xs-4 main-menu text-right">
+                        <ul class="menu-first hidden-sm hidden-xs">
+                            <li id="DARLING"><a href="/">Главная</a></li>
+                            <li id="БЛОГ"><a href="/blog">БЛОГ</a></li>
+                        {%if user%}
+                            <li id="Личный"><a  href="/cabinet">ПРИВЕТ, {{user.name}}</a></li>
+                        {%else%}
+                            <li id="Войти"><a href="/login">Войти</a></li>
+                        {%endif%}
+                            <li><a href="/#contact">КОНТАКТЫ</a></li>
+                        </ul>
+                        <a href="#" class="toggle-menu visible-sm visible-xs"><i class="fa fa-bars"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-responsive hidden-md hidden-lg">
+                <ul>
+                    <li class="active"><a href="#">Главная</a></li>
+                    <li><a href="/blog">БЛОГ</a></li>
+                    
+                    {%if user%}
+                    <li><a href="#portfolio">ПРИВЕТ, {{user.name}}</a></li>
+                    {%else%}
+                    <li><a href="/login">ВХОД</a></li>
+                    {%endif%}
+                    <li><a href="#contact">КОНТАКТЫ</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

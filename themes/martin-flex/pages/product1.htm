@@ -1,0 +1,55 @@
+title = "Product"
+url = "/product/:slug"
+layout = "default"
+is_hidden = 0
+
+[builderDetails]
+modelClass = "Vadim\Products\Models\Prod"
+identifierValue = "{{ :slug }}"
+modelKeyColumn = "slug"
+displayColumn = "pname"
+notFoundMessage = "Record not found"
+==
+<?php
+use vadim\products\models\Prod;
+use vadim\products\models\Sales;
+
+
+function onClick() {
+   
+    }
+?>
+==
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+
+
+<form action="onClick">
+<input type="button" value='Приобрести'>
+
+</form>
+
+{% set record = builderDetails.record %}
+{% set displayColumn = builderDetails.displayColumn %}
+{% set notFoundMessage = builderDetails.notFoundMessage %}
+
+{% if record %}
+   <h3>{{record.pname}}</h3>
+   <p>{{record.pdescription}} </p>
+{% else %}
+    {{ notFoundMessage }}
+{% endif %}
+</div>
